@@ -1,0 +1,13 @@
+# client-scoring-config (devc)
+---
+spring:
+  boot:
+    admin:
+      url: http://springbootadminapi-dev.eu-west-1.elasticbeanstalk.com
+      client:
+        enabled: true
+        service-url: http://api-jva-client-scoring-${ENV}.eu-west-1.elasticbeanstalk.com/client-scoring/v1
+        management-url: http://api-jva-client-scoring-${ENV}.eu-west-1.elasticbeanstalk.com:81
+
+client-scorin
+  client-scoring-service-url: http://10.20.119.19:7014/clientscoringservice/clientscoringservice

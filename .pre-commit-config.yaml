@@ -1,5 +1,4 @@
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    sha: v1.2.0
+-   repo: https://github.com/aanishkumar/orion-assembly-location-service-sb.git
     hooks:
     -   id: check-yaml
